@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Software Dev Pro Blog"
+theme = "ananke"
