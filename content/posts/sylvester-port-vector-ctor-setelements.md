@@ -7,7 +7,7 @@ draft: true
 For our first part of the Vector class development in coffeescript, we are going to focus on the constructor and setElements methods.  Before we get started, the original Sylvester Javascript library was developed by someone else (James Coglan), the copyright from the top of the file is given below, with a link to the website below:
 
 Copyright Notice:
-
+`
 // === Sylvester ===
 // Vector and Matrix mathematics modules for JavaScript
 // Copyright (c) 2007 James Coglan
@@ -46,6 +46,7 @@ class Vector
   setElements: (els) ->
     @elements = (els.elements || els).slice()
     return this
+`
 
 Details:
 The first part of the class following the copyright notice is a map, which contains the version number of the Sylvester library, and the precision used in the library.  The precision number is used throughout the Vector class and other parts of the library.  The declaration of the class is straightforward.  The constructor simply creates an instance variable called elements which contains the values that model the vector, and the setElements method takes the passed in array, and sets the local class instance variable to that.  The setElements method then returns the instance of the current object which can be used for chaining method calls.
