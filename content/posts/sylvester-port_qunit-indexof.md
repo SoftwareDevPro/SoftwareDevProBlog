@@ -7,6 +7,8 @@ In the last segment we added one additional test suite, for the snapTo method wh
 
 Qunit Tests:
 
+```
+
 <html>
 <head>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -298,6 +300,8 @@ test("vector.indexOf", function()  {
 
 </body>
 </html>
+
+```
 
 Details:
 As you can see by looking at the test suite for the indexOf method, we create a bunch of vectors, starting with an initial one, v1, then a bunch of intermediaries, and then test the indexOf method passing in arguments, and checking each of the return values.
