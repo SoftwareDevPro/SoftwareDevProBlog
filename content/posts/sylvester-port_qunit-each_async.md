@@ -1,7 +1,7 @@
 ---
 title: "Sylvester Port - Qunit, each (asynchronous)"
 date: 2020-10-07T11:20:32-07:001
-draft: true
+draft: false
 ---
 In the last segment we added multiply and x methods asynchronous test methods, where the x method is just a synonym for the multiply method.  Continuing in the spirit of converting all of the test methods from synchronous to asynchronous, we add in the each method which invokes a function over each Vector element.  Just like before we change test to asyncTest, and add a start call to the end of the test method.
 
