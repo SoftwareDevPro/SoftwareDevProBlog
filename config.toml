@@ -12,3 +12,8 @@ theme = "ananke"
     identifier = "about"
     url = "/about/"
     
+  [[menu.main]]
+    identifier = "talks"
+    name = "talks"
+    url = "/talks/"
+    weight = 30
