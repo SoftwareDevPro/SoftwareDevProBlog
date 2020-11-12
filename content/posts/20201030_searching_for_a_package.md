@@ -2,7 +2,6 @@
 title: "Searching for a package in Linux"
 date: 2020-10-29T16:38:08-07:00
 draft: true
-menu: ["main", "footer"]
 ---
 
 # Searching for a package named tmux
