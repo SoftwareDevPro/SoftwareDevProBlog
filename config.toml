@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Software Dev Pro Blog"
 theme = "ananke"
 
+[menu]
+
 [[menu.main]]
     name = "About Me"
     pre = "<i class='fa fa-glasses'></i>"
