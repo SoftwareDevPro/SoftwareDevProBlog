@@ -2,3 +2,11 @@ baseURL = "https://vigorous-chandrasekhar-7aba6d.netlify.app/"
 languageCode = "en-us"
 title = "Software Dev Pro Blog"
 theme = "ananke"
+
+[[menu.main]]
+    name = "About Me"
+    pre = "<i class='fa fa-glasses'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+    
